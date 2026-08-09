@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Muhammad Zamachsyari: political journalism, Arabic translation, language review, and research.">
+  <meta name="description" content="Portfolio of Muhammad Zamachsyari — political and state affairs journalist, Arabic translator, language reviewer, and researcher.">
   <title>Muhammad Zamachsyari | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -21,21 +21,26 @@
         <p class="eyebrow" id="eyebrow"></p>
         <h1 id="hero-name"></h1>
         <p class="hero-title" id="hero-title"></p>
+        <p class="hero-subtitle" id="hero-subtitle"></p>
         <p class="hero-description" id="hero-intro"></p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#work">View Selected Work</a>
-          <a class="button button-secondary" href="#contact">Get in Touch</a>
+          <a class="button button-primary" href="#coverage">Explore My Work</a>
+          <a class="button button-secondary" href="#contact">Contact</a>
         </div>
       </div>
 
       <aside class="profile-card" aria-label="Profile summary">
-        <p class="profile-number">PORTFOLIO / 2026</p>
+        <p class="profile-number" id="portfolio-year"></p>
         <p class="monogram" id="profile-initials"></p>
         <div>
           <p class="profile-location" id="profile-location"></p>
           <p class="profile-note" id="profile-availability"></p>
         </div>
       </aside>
+    </section>
+
+    <section class="facts-strip">
+      <div class="container facts-grid" id="facts-grid"></div>
     </section>
 
     <section class="about section" id="about">
@@ -52,22 +57,56 @@
       <div class="container">
         <div class="section-heading">
           <p class="section-kicker">Expertise</p>
-          <h2>Journalism, language work, and research.</h2>
+          <h2>Reporting, language, and research.</h2>
         </div>
         <div class="expertise-grid" id="expertise-grid"></div>
       </div>
     </section>
 
-    <section class="work section" id="work">
+    <section class="coverage section" id="coverage">
       <div class="container">
-        <div class="section-heading work-heading">
+        <div class="section-heading split-heading">
           <div>
-            <p class="section-kicker">Selected Work</p>
-            <h2>Stories, language projects, and research.</h2>
+            <p class="section-kicker">Selected Coverage</p>
+            <h2>From campaign trails to presidential diplomacy.</h2>
           </div>
-          <p class="section-side-note">This section is intentionally data-driven. Add or remove projects from <strong>content.js</strong>.</p>
+          <p class="section-side-note">A selection of beats and assignments. Public article links can be added later from <strong>content.js</strong>.</p>
+        </div>
+        <div class="coverage-list" id="coverage-list"></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="section-kicker">Projects</p>
+            <h2>Language, editorial, and research work.</h2>
+          </div>
+          <p class="section-side-note">These cards are editable from one file. Add links whenever a project becomes public.</p>
         </div>
         <div class="work-grid" id="work-grid"></div>
+      </div>
+    </section>
+
+    <section class="research section" id="research">
+      <div class="container research-grid">
+        <div>
+          <p class="section-kicker" id="research-label"></p>
+          <h2 id="research-heading"></h2>
+          <p class="research-description" id="research-description"></p>
+        </div>
+        <div class="topic-list" id="research-topics"></div>
+      </div>
+    </section>
+
+    <section class="principles section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Working Principles</p>
+          <h2>How I approach the work.</h2>
+        </div>
+        <div class="principles-grid" id="principles-grid"></div>
       </div>
     </section>
 
